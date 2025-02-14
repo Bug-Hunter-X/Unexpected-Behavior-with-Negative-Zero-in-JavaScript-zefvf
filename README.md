@@ -1,0 +1,3 @@
+# JavaScript Negative Zero Bug
+
+This repository demonstrates a subtle bug in JavaScript related to the handling of negative zero (-0). The `myFunction` in `bug.js` fails to correctly identify and handle negative zero, leading to inaccurate results.  The solution in `bugSolution.js` addresses this by using strict equality (`===`) and explicitly checking for `-0`. This ensures correct behavior regardless of the sign of zero values.
